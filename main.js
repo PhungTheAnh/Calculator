@@ -21,6 +21,9 @@ buttons.forEach(button => {
                     display.innerText = '';
                 }
                 break;
+            case '√':
+                display.innerText = Math.sqrt(display.innerText);
+                break;
             default:
                 display.innerText += e.target.innerText;
         }
